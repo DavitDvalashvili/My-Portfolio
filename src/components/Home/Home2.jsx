@@ -106,14 +106,14 @@ export default Home2;
 
 const Home2Style = styled.div`
   .myAvatar {
-    justify-content: center !important;
-    padding-top: 9em !important;
+    justify-content: center;
+    padding-top: 9em;
   }
 
   @media (max-width: 767px) {
     .myAvatar {
-      padding-top: 2em !important;
-      padding-bottom: 2em !important;
+      padding-top: 2em;
+      padding-bottom: 2em;
     }
   }
 
@@ -125,7 +125,6 @@ const Home2Style = styled.div`
 
   .home-about-description {
     color: white !important;
-    padding-top: 100px !important;
     padding-bottom: 20px !important;
     text-align: center;
   }
