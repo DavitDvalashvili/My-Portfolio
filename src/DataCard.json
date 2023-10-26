@@ -2,19 +2,49 @@
     {  
         "id" : 1,
         "title": "Audiophile Ecommerce website",
-        "image":  "./assets/cart/image-yx1-earphones.jpg"  ,
-        "stacks": 0,
-        "description": 599,
-        "githubLink": "fff",
-        "demoLink": "djdjd"
+        "image":  "./public/Projects/Audiophile-eCommerce-website.png",
+        "stacks": "BUILT WITH: Typescript, Styled-Components, React-Router, React-hook-form, React-Helmet",
+        "githubLink": "https://github.com/DavitDvalashvili/Audiophile-ecommerce-website",
+        "demoLink": "https://audiophile-ecommerce-website-lake.vercel.app/"
     },
     {  
-        "id" : 1,
-        "title": "YX1",
-        "image":  "./assets/cart/image-yx1-earphones.jpg"  ,
-        "stacks": 0,
-        "description": 599,
-        "githubLink": "fff",
-        "demoLink": "djdjd"
+        "id" : 2,
+        "title": "RedBerry knight cup registration",
+        "image":  "./public/Projects/Knight-Cup-Registration.png",
+        "stacks": "BUILT WITH: Typescript, Styled-Components, React-Router, React-hook-form",
+        "githubLink": "https://github.com/DavitDvalashvili/RedBerry-Knight-Cup-Registration",
+        "demoLink": "https://red-berry-knight-cup-registration-nine.vercel.app/"
     },
+    {  
+        "id" : 3,
+        "title": "Photosnap multi page website",
+        "image":  "./public/Projects/Photosnap-multi-page-website.png",
+        "stacks": "BUILT WITH: React - Javascript Library, Typescript, Styled-Components, React-Router",
+        "githubLink": "https://github.com/DavitDvalashvili/Photosnap-multi-page-website",
+        "demoLink": "https://photosnap-multi-page-website-two.vercel.app/"
+    },
+    {  
+        "id" : 4,
+        "title": "Dictionary-web-app",
+        "image":  "./public/Projects/Dictionary-web-app.png",
+        "stacks": "BUILT WITH: Javascript, React - Javascript Library, Tailwind for styling, Rest-Api",
+        "githubLink": "https://github.com/soumyajit4419/Plant_AI",
+        "demoLink": "https://plant49-ai.herokuapp.com/"
+    },
+    {  
+        "id" : 5,
+        "title": "Planets fact site",
+        "image":  "./public/Projects/Planets-fact-site.png",
+        "stacks": "BUILT WITH: Typescript, React - Javascript Library, Styled-Components",
+        "githubLink": "https://github.com/DavitDvalashvili/Planets-fact-site",
+        "demoLink": "https://planets-fact-site-theta.vercel.app/"
+    },
+    {  
+        "id" : 6,
+        "title": "Todo app",
+        "image":  "./public/Projects/Todo-app.png",
+        "stacks": "BUILT WITH: Vanilla Javascript, SASS - css pre-processor, html",
+        "githubLink": "https://davitdvalashvili.github.io/Todo-App/",
+        "demoLink": "https://github.com/DavitDvalashvili/Todo-App"
+    }
 ]
