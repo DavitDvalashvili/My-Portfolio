@@ -6,6 +6,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import styled from "styled-components";
+import DefaultTheme from "../DefaultTheme";
 
 function About() {
   return (
@@ -60,17 +61,16 @@ const AboutStyle = styled.section`
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
-    color: white !important;
+    color: ${DefaultTheme.colors.white};
   }
 
   .tech-icons {
     margin: 25px;
     padding: 25px;
     cursor: pointer;
-    border: 2px solid rgba(200, 137, 230, 0.637) !important;
+    border: 2px solid ${DefaultTheme.colors.textColor} !important;
     border-radius: 5px !important;
-    box-shadow: 0px 0px 3px 3px rgba(89, 4, 168, 0.137) !important;
+    box-shadow: 0px 0px 3px 3px ${DefaultTheme.colors.textColor} !important;
     transition: all 0.4s ease 0s !important;
   }
 
@@ -83,13 +83,13 @@ const AboutStyle = styled.section`
   .tech-icons:hover {
     transform: scale(1.12) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-    box-shadow: 0px 0px 4px 4px rgba(197, 115, 230, 0.883) !important;
+    border: 2.2px solid ${DefaultTheme.colors.textColor} !important;
+    box-shadow: 0px 0px 4px 4px ${DefaultTheme.colors.textColor} !important;
   }
 
   .quote-card-view {
     border: none !important;
-    color: white !important;
+    color: ${DefaultTheme.colors.white};
     background-color: transparent !important;
   }
 

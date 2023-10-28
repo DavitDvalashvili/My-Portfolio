@@ -15,6 +15,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import DefaultTheme from "./DefaultTheme";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -150,7 +151,7 @@ const NavStyle = styled.div`
 
   .navbar-toggler span {
     display: block !important;
-    background-color: #be50f4 !important;
+    background-color: ${DefaultTheme.colors.textColor} !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -247,7 +248,7 @@ const NavStyle = styled.div`
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #c95bf5;
+    background: ${DefaultTheme.colors.textColor};
     bottom: 1px;
     left: 0;
     z-index: -1;

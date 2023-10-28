@@ -70,7 +70,7 @@ export default Footer;
 
 const FooterStyle = styled.footer`
   .footer {
-    background-color: rgb(10, 4, 22);
+    background-color: rgb(7, 9, 49);
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;

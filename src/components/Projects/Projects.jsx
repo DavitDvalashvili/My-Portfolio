@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import styled from "styled-components";
 import data from "./../../DataCard.json";
+import DefaultTheme from "../DefaultTheme";
 
 const Projects = () => {
   return (
@@ -55,7 +56,7 @@ const ProjectStyle = styled.section`
   }
 
   .project-card-view {
-    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    box-shadow: 0 4px 5px 3px ${DefaultTheme.colors.textColor} !important;
     color: white !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
@@ -65,7 +66,7 @@ const ProjectStyle = styled.section`
   .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 5px 5px 6px rgba(129, 72, 144, 0.561) !important;
+    box-shadow: 0 5px 5px 6px ${DefaultTheme.colors.textColor} !important;
   }
 
   .card-img-top {
@@ -76,14 +77,14 @@ const ProjectStyle = styled.section`
 
   .btn-primary {
     color: #fff !important;
-    background-color: #623686 !important;
-    border-color: #623686 !important;
+    background-color: ${DefaultTheme.colors.textColor} !important;
+    border-color: ${DefaultTheme.colors.textColor} !important;
   }
 
   .btn-primary:hover {
     color: #fff !important;
-    background-color: #6d20c5d7 !important;
-    border-color: #6d20c5d7 !important;
+    background-color: ${DefaultTheme.colors.textColor} !important;
+    border-color: ${DefaultTheme.colors.textColor} !important;
   }
   .btn:focus {
     outline: none;

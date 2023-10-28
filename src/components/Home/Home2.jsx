@@ -1,9 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 import styled from "styled-components";
+import DefaultTheme from "../DefaultTheme";
 
 function Home2() {
   return (
@@ -107,7 +108,6 @@ export default Home2;
 const Home2Style = styled.div`
   .myAvatar {
     justify-content: center;
-    padding-top: 9em;
   }
 
   @media (max-width: 767px) {
@@ -170,7 +170,6 @@ const Home2Style = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #68187a;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -178,13 +177,13 @@ const Home2Style = styled.div`
 
   .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #801f95;
+    box-shadow: 0 0 15px ${DefaultTheme.colors.textColor};
   }
 
   .home-social-icons:hover {
-    color: #87209e;
-    box-shadow: 0 0 5px #87209e;
-    text-shadow: 0 0 2px #87209e;
+    color: ${DefaultTheme.colors.textColor};
+    box-shadow: 0 0 5px ${DefaultTheme.colors.textColor};
+    text-shadow: 0 0 2px ${DefaultTheme.colors.textColor};
   }
 
   .social-icons {
@@ -194,6 +193,6 @@ const Home2Style = styled.div`
   }
 
   .icon-color {
-    color: #700c86 !important;
+    color: ${DefaultTheme.colors.textColor} !important;
   }
 `;

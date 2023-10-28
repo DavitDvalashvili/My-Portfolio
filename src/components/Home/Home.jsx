@@ -1,9 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../assets/home.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import styled from "styled-components";
+import DefaultTheme from "../DefaultTheme";
 
 function Home() {
   return (
@@ -63,7 +64,7 @@ const HomeStyle = styled.section`
     }
     10% {
       transform: rotate(14deg);
-    } /* The following five values can be played with to make the waving more or less extreme */
+    }
     20% {
       transform: rotate(-8deg);
     }
@@ -98,16 +99,13 @@ const HomeStyle = styled.section`
   .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
   }
 
   .home-content {
     padding: 9rem 0 2rem !important;
-    color: whitesmoke;
+    color: ${DefaultTheme.colors.white};
     text-align: left;
   }
 
@@ -122,17 +120,17 @@ const HomeStyle = styled.section`
   }
 
   .main-name {
-    color: #cd5ff8;
+    color: ${DefaultTheme.colors.textColor};
   }
 
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #be6adf !important;
+    color: ${DefaultTheme.colors.textColor} !important;
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #b562d6 !important;
+    color: ${DefaultTheme.colors.textColor} !important;
   }
 
   @media (max-width: 767px) {
