@@ -12,7 +12,7 @@ function Footer() {
       <Container fluid className="footer">
         <Row>
           <Col md="4" className="footer-copyright">
-            <h3>Welcome to the Davit Dvalashvili's Portfolio</h3>
+            <h3>{`Welcome to the Davit Dvalashvili's Portfolio`}</h3>
           </Col>
           <Col md="4" className="footer-copyright">
             <h3>©{year} Davit Dvalashvili</h3>
@@ -71,7 +71,7 @@ export default Footer;
 
 const FooterStyle = styled.footer`
   .footer {
-    background-color: ${DefaultTheme.colors.CosmicVoid};
+    background-color: ${DefaultTheme.colors.Sambucus};
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
@@ -112,9 +112,5 @@ const FooterStyle = styled.footer`
     &:hover {
       background-color: ${DefaultTheme.colors.CosmicVoid};
     }
-  }
-
-  .blockquote-footer {
-    color: #a588c0 !important;
   }
 `;

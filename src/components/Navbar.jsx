@@ -131,7 +131,7 @@ export default NavBar;
 
 const NavStyle = styled.div`
   .sticky {
-    background-color: #1b1a2ea9;
+    background-color: ${DefaultTheme.colors.Copperfield};
     transition: all 0.3s ease-out 0s;
     box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
     backdrop-filter: blur(15px);

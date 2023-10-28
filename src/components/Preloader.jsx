@@ -2,6 +2,7 @@
 import styled from "styled-components";
 import preImage from "../assets/pre.svg";
 import Typewriter from "typewriter-effect";
+import DefaultTheme from "./DefaultTheme";
 
 const Preloader = (props) => {
   return (
@@ -29,17 +30,17 @@ const PreStyle = styled.div`
     width: 100%;
     height: 100%;
     z-index: 2100;
-    background-image: url(${preImage});
-    background-color: #0c0513;
+    background-image: url(${preImage}),
+      linear-gradient(to top left, #1e2761, #153247, #1e2761, #153247);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: top;
     padding-top: 200px;
-    color: #be6adf;
-    font-size: 20px;
-    opacity: 1;
+    color: ${DefaultTheme.colors.white};
+    font-size: 25px;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: center;

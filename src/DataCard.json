@@ -28,8 +28,8 @@
         "title": "Dictionary-web-app",
         "image":  "./public/Projects/Dictionary-web-app.png",
         "stacks": "BUILT WITH: Javascript, React - Javascript Library, Tailwind for styling, Rest-Api",
-        "githubLink": "https://github.com/soumyajit4419/Plant_AI",
-        "demoLink": "https://plant49-ai.herokuapp.com/"
+        "githubLink": "https://github.com/DavitDvalashvili/Dictionary-web-app",
+        "demoLink": "https://dictionary-web-app-lime.vercel.app/"
     },
     {  
         "id" : 5,
