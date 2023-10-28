@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import DefaultTheme from "./components/DefaultTheme";
+import DefaultTheme from "./DefaultTheme";
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -7,36 +7,18 @@ body {
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --section-background-color: linear-gradient(
+  background-image: linear-gradient(
     to top left,
-    #131941,
-    #0e314a,
-    #131941,
-    #0e314a
-
-  );
-  background-image:  var(--section-background-color);
-  //background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
-}  
-/* 
-#1E2761,
+    #1E2761,
     #153247,
     #1E2761,
-    #153247 */
+    #153247 
+  );
+}  
 
-html {
-
-  --imp-text-color: ${DefaultTheme.colors.textColor};
+.textColor {
+  color: ${DefaultTheme.colors.teal};
 }
-
-.purple {
-  color: var(--imp-text-color) !important;
-}
-
-button:focus {
-  box-shadow: none !important;
-}
-
 
 /*Scrollbar   */
 
@@ -46,18 +28,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(7, 9, 49);
+  background: ${DefaultTheme.colors.SchiavaBlue};
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: ${DefaultTheme.colors.teal};
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: ${DefaultTheme.colors.teal};
   border-radius: 12px;
 }
 .App {
@@ -75,20 +57,7 @@ button:focus {
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-/* .App-link {
-  color: #61dafb;
-} */
 
 @keyframes App-logo-spin {
   from {
@@ -98,8 +67,4 @@ button:focus {
     transform: rotate(360deg);
   }
 }
-
-
-
-
 `;

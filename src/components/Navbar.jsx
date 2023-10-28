@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import styled from "styled-components";
+import logo from "../assets/Dd.svg";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -41,7 +42,7 @@ function NavBar() {
       >
         <Container>
           <Navbar.Brand href="/" className="d-flex">
-            {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+            <img src={logo} className="img-fluid logo" alt="brand" />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
@@ -130,10 +131,10 @@ export default NavBar;
 
 const NavStyle = styled.div`
   .sticky {
-    background-color: #1b1a2ea9 !important;
-    transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-    backdrop-filter: blur(15px) !important;
+    background-color: #1b1a2ea9;
+    transition: all 0.3s ease-out 0s;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
+    backdrop-filter: blur(15px);
   }
 
   .navbar {
@@ -151,7 +152,7 @@ const NavStyle = styled.div`
 
   .navbar-toggler span {
     display: block !important;
-    background-color: ${DefaultTheme.colors.textColor} !important;
+    background-color: ${DefaultTheme.colors.teal} !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -209,8 +210,7 @@ const NavStyle = styled.div`
   }
 
   .logo {
-    height: 1.4em !important;
-    width: 2.5em !important;
+    height: 2em !important;
   }
 
   .navbar-nav .nav-link {
@@ -248,7 +248,7 @@ const NavStyle = styled.div`
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: ${DefaultTheme.colors.textColor};
+    background: ${DefaultTheme.colors.teal};
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -257,5 +257,27 @@ const NavStyle = styled.div`
 
   .navbar-nav .nav-item a:hover::after {
     width: 100%;
+  }
+
+  .fork-btn {
+    font-size: 1.1em !important;
+    padding-top: 10px !important;
+  }
+
+  .fork-btn-inner {
+    line-height: 1.4em !important;
+    background-color: ${DefaultTheme.colors.teal};
+    padding: 0.25rem 1.1rem !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-color: ${DefaultTheme.colors.teal};
+  }
+
+  .fork-btn-inner:hover {
+    transform: translateY(-4px) !important;
+    background-color: ${DefaultTheme.colors.SchiavaBlue} !important;
+  }
+  .fork-btn-inner::after {
+    display: none !important;
   }
 `;

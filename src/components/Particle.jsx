@@ -1,54 +1,100 @@
 import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
-function Particle() {
+const Particle = () => {
+  const particlesInit = async (main) => {
+    console.log(main);
+    await loadFull(main);
+  };
   return (
     <Particles
       id="tsparticles"
-      params={{
+      init={particlesInit}
+      options={{
+        name: "NASA",
         particles: {
           number: {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
             },
           },
-          line_linked: {
-            enable: false,
-            opacity: 0.03,
+          color: {
+            value: "#ffffff",
           },
-          move: {
-            direction: "right",
-            speed: 0.05,
-          },
-          size: {
-            value: 1,
+          shape: {
+            type: "circle",
           },
           opacity: {
-            anim: {
+            value: {
+              min: 0.1,
+              max: 1,
+            },
+            animation: {
               enable: true,
               speed: 1,
-              opacity_min: 0.05,
+              sync: false,
+            },
+          },
+          size: {
+            value: {
+              min: 1,
+              max: 3,
+            },
+          },
+          move: {
+            enable: true,
+            speed: {
+              min: 0.1,
+              max: 1,
             },
           },
         },
         interactivity: {
           events: {
-            onclick: {
+            onHover: {
               enable: true,
-              mode: "push",
+              mode: "bubble",
+            },
+            onClick: {
+              enable: true,
+              mode: "repulse",
             },
           },
           modes: {
+            grab: {
+              distance: 400,
+              links: {
+                opacity: 1,
+              },
+            },
+            bubble: {
+              distance: 250,
+              size: 0,
+              duration: 2,
+              opacity: 0,
+            },
+            repulse: {
+              distance: 400,
+              duration: 0.4,
+            },
             push: {
-              particles_nb: 1,
+              quantity: 4,
+            },
+            remove: {
+              quantity: 2,
             },
           },
         },
-        retina_detect: true,
+        background: {
+          color: "none",
+          position: "50% 50%",
+          repeat: "no-repeat",
+          size: "20%",
+        },
       }}
     />
   );
-}
+};
 
 export default Particle;

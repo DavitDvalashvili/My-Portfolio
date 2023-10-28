@@ -1,8 +1,10 @@
 const DefaultTheme = {
   colors: {
     white: "#ffffff",
-    textColor: "#008080"
-    //textColor: "#4080bf"
+    CosmicVoid: "#070931",
+    teal: "#008080",
+    SchiavaBlue: "#1E2761",
+
   },
 };
 

@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
@@ -12,7 +11,6 @@ function About() {
   return (
     <AboutStyle>
       <Container fluid className="about-section">
-        <Particle />
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
@@ -24,7 +22,7 @@ function About() {
               }}
             >
               <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                Know Who <strong className="purple">I AM</strong>
+                Know Who <strong className="textColor">{`I'M`}</strong>
               </h1>
               <Aboutcard />
             </Col>
@@ -37,13 +35,13 @@ function About() {
             </Col>
           </Row>
           <h1 className="project-heading">
-            Professional <strong className="purple">Skillset </strong>
+            Professional <strong className="textColor">Skillset </strong>
           </h1>
 
           <Techstack />
 
           <h1 className="project-heading">
-            <strong className="purple">Tools</strong> I use
+            <strong className="textColor">Tools</strong> I use
           </h1>
           <Toolstack />
 
@@ -58,7 +56,6 @@ export default About;
 
 const AboutStyle = styled.section`
   .about-section {
-    position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     color: ${DefaultTheme.colors.white};
@@ -68,9 +65,9 @@ const AboutStyle = styled.section`
     margin: 25px;
     padding: 25px;
     cursor: pointer;
-    border: 2px solid ${DefaultTheme.colors.textColor} !important;
+    border: 2px solid ${DefaultTheme.colors.teal} !important;
     border-radius: 5px !important;
-    box-shadow: 0px 0px 3px 3px ${DefaultTheme.colors.textColor} !important;
+    box-shadow: 0px 0px 3px 3px ${DefaultTheme.colors.teal} !important;
     transition: all 0.4s ease 0s !important;
   }
 
@@ -83,8 +80,8 @@ const AboutStyle = styled.section`
   .tech-icons:hover {
     transform: scale(1.12) !important;
     overflow: hidden !important;
-    border: 2.2px solid ${DefaultTheme.colors.textColor} !important;
-    box-shadow: 0px 0px 4px 4px ${DefaultTheme.colors.textColor} !important;
+    border: 2.2px solid ${DefaultTheme.colors.teal} !important;
+    box-shadow: 0px 0px 4px 4px ${DefaultTheme.colors.teal} !important;
   }
 
   .quote-card-view {

@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Davit Dvalashvili CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 import styled from "styled-components";
+import DefaultTheme from "../DefaultTheme";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -19,9 +19,9 @@ function ResumeNew() {
   return (
     <ResumeStyle>
       <Container fluid className="resume-section">
-        <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
+            className="button"
             variant="primary"
             href={pdf}
             target="_blank"
@@ -40,6 +40,7 @@ function ResumeNew() {
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
+            className="button"
             variant="primary"
             href={pdf}
             target="_blank"
@@ -61,7 +62,6 @@ const ResumeStyle = styled.div`
     position: relative !important;
     padding-top: 110px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
     color: white !important;
   }
   .resume {
@@ -71,5 +71,13 @@ const ResumeStyle = styled.div`
   }
   .textLayer {
     display: none;
+  }
+  .button {
+    background-color: ${DefaultTheme.colors.teal};
+    border: 1px solid ${DefaultTheme.colors.teal};
+  }
+  .button:hover {
+    background-color: ${DefaultTheme.colors.SchiavaBlue};
+    border: 1px solid ${DefaultTheme.colors.teal};
   }
 `;

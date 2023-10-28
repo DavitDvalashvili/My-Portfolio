@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
+import DefaultTheme from "./DefaultTheme";
 
 function Footer() {
   let date = new Date();
@@ -70,7 +71,7 @@ export default Footer;
 
 const FooterStyle = styled.footer`
   .footer {
-    background-color: rgb(7, 9, 49);
+    background-color: ${DefaultTheme.colors.CosmicVoid};
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
@@ -96,7 +97,7 @@ const FooterStyle = styled.footer`
 
   .footer h3 {
     font-size: 1em;
-    color: white !important;
+    color: ${DefaultTheme.colors.white} !important;
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;
   }
@@ -108,6 +109,9 @@ const FooterStyle = styled.footer`
     justify-content: center;
     gap: 20px;
     align-items: center;
+    &:hover {
+      background-color: ${DefaultTheme.colors.CosmicVoid};
+    }
   }
 
   .blockquote-footer {

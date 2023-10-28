@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../assets/home.png";
-import Particle from "../Particle";
+
 import Home2 from "./Home2";
 import Type from "./Type";
 import styled from "styled-components";
@@ -10,7 +10,6 @@ function Home() {
   return (
     <HomeStyle>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -51,10 +50,10 @@ export default Home;
 
 const HomeStyle = styled.section`
   .wave {
-    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.1s; /* Change to speed up or slow down */
-    animation-iteration-count: infinite; /* Never stop waving :) */
-    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    animation-name: wave-animation;
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
     display: inline-block;
   }
 
@@ -83,13 +82,6 @@ const HomeStyle = styled.section`
     100% {
       transform: rotate(0deg);
     }
-  }
-  #tsParticles {
-    position: fixed !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    width: 100%;
-    height: 100%;
   }
 
   .home-header {
@@ -120,17 +112,17 @@ const HomeStyle = styled.section`
   }
 
   .main-name {
-    color: ${DefaultTheme.colors.textColor};
+    color: ${DefaultTheme.colors.teal};
   }
 
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: ${DefaultTheme.colors.textColor} !important;
+    color: ${DefaultTheme.colors.teal} !important;
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: ${DefaultTheme.colors.textColor} !important;
+    color: ${DefaultTheme.colors.teal} !important;
   }
 
   @media (max-width: 767px) {

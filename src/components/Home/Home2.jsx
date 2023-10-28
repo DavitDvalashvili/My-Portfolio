@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
+import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
@@ -14,7 +14,7 @@ function Home2() {
           <Row>
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
-                LET ME <span className="purple"> INTRODUCE </span> MYSELF
+                LET ME <span className="textColor"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
                 I fell in love with programming, have a passion for
@@ -23,22 +23,22 @@ function Home2() {
                 <br />
                 You can ask me about
                 <i>
-                  <b className="purple"> Javascript, React </b>
+                  <b className="textColor"> Javascript, React </b>
                 </i>
                 <br />
                 <br />
                 My field of Interests are building &nbsp;
                 <i>
-                  <b className="purple">user-friendly web applications. </b>
-                  with <b className="purple">TypeScript, React</b>
+                  <b className="textColor">user-friendly web applications. </b>
+                  with <b className="textColor">TypeScript, React</b>
                 </i>
                 <br />
                 <br />
                 Whenever possible, I also spend my time and energy to enhance my
                 skills in
-                <b className="purple"> Back-end development</b> and learn
+                <b className="textColor"> Back-end development</b> and learn
                 <i>
-                  <b className="purple"> Next.js, Express.js and MongoDB</b>
+                  <b className="textColor"> Next.js, Express.js and MongoDB</b>
                 </i>
               </p>
             </Col>
@@ -52,7 +52,7 @@ function Home2() {
             <Col md={12} className="home-about-social">
               <h1>FIND ME ON</h1>
               <p>
-                Feel free to <span className="purple">connect </span>with me
+                Feel free to <span className="textColor">connect </span>with me
               </p>
               <ul className="home-about-social-links">
                 <li className="social-icons">
@@ -124,7 +124,7 @@ const Home2Style = styled.div`
   }
 
   .home-about-description {
-    color: white !important;
+    color: ${DefaultTheme.colors.white} !important;
     padding-bottom: 20px !important;
     text-align: center;
   }
@@ -138,7 +138,7 @@ const Home2Style = styled.div`
   .home-about-social {
     text-align: center !important;
     padding-top: 25px;
-    color: white !important;
+    color: ${DefaultTheme.colors.white} !important;
   }
 
   .home-about-social-links {
@@ -177,13 +177,13 @@ const Home2Style = styled.div`
 
   .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px ${DefaultTheme.colors.textColor};
+    box-shadow: 0 0 40px ${DefaultTheme.colors.teal};
   }
 
   .home-social-icons:hover {
-    color: ${DefaultTheme.colors.textColor};
-    box-shadow: 0 0 5px ${DefaultTheme.colors.textColor};
-    text-shadow: 0 0 2px ${DefaultTheme.colors.textColor};
+    color: ${DefaultTheme.colors.teal};
+    box-shadow: 0 0 5px ${DefaultTheme.colors.teal};
+    text-shadow: 0 0 2px ${DefaultTheme.colors.teal};
   }
 
   .social-icons {
@@ -193,6 +193,6 @@ const Home2Style = styled.div`
   }
 
   .icon-color {
-    color: ${DefaultTheme.colors.textColor} !important;
+    color: ${DefaultTheme.colors.teal} !important;
   }
 `;

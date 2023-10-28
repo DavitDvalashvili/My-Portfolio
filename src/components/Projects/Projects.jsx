@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import styled from "styled-components";
 import data from "./../../DataCard.json";
 import DefaultTheme from "../DefaultTheme";
@@ -9,10 +8,9 @@ const Projects = () => {
   return (
     <ProjectStyle>
       <Container fluid className="project-section">
-        <Particle />
         <Container>
           <h1 className="project-heading">
-            My Recent <strong className="purple">Works </strong>
+            My Recent <strong className="textColor">Works </strong>
           </h1>
           <p style={{ color: "white" }}>
             Here are a few projects I have worked on recently.
@@ -41,10 +39,9 @@ export default Projects;
 
 const ProjectStyle = styled.section`
   .project-section {
-    position: relative !important;
+    //position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
   }
 
   .project-card {
@@ -56,7 +53,7 @@ const ProjectStyle = styled.section`
   }
 
   .project-card-view {
-    box-shadow: 0 4px 5px 3px ${DefaultTheme.colors.textColor} !important;
+    box-shadow: 0 4px 5px 3px ${DefaultTheme.colors.teal} !important;
     color: white !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
@@ -66,7 +63,7 @@ const ProjectStyle = styled.section`
   .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 5px 5px 6px ${DefaultTheme.colors.textColor} !important;
+    box-shadow: 0 5px 5px 6px ${DefaultTheme.colors.teal} !important;
   }
 
   .card-img-top {
@@ -77,14 +74,14 @@ const ProjectStyle = styled.section`
 
   .btn-primary {
     color: #fff !important;
-    background-color: ${DefaultTheme.colors.textColor} !important;
-    border-color: ${DefaultTheme.colors.textColor} !important;
+    background-color: ${DefaultTheme.colors.teal} !important;
+    border-color: ${DefaultTheme.colors.teal} !important;
   }
 
   .btn-primary:hover {
     color: #fff !important;
-    background-color: ${DefaultTheme.colors.textColor} !important;
-    border-color: ${DefaultTheme.colors.textColor} !important;
+    background-color: ${DefaultTheme.colors.teal} !important;
+    border-color: ${DefaultTheme.colors.teal} !important;
   }
   .btn:focus {
     outline: none;
