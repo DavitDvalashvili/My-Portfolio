@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import styled from "styled-components";
-import logo from "../assets/Dd.svg";
+import logo from "../assets/Logo.svg";
 import {
   AiFillStar,
   AiOutlineHome,
