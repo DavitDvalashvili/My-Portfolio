@@ -109,8 +109,5 @@ const FooterStyle = styled.footer`
     justify-content: center;
     gap: 20px;
     align-items: center;
-    &:hover {
-      background-color: ${DefaultTheme.colors.CosmicVoid};
-    }
   }
 `;
