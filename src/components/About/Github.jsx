@@ -22,9 +22,6 @@ function Github() {
           blockMargin={5}
           fontSize={16}
           blockRadius={7}
-          theme={{
-            dark: ["#ffffff", "#00cccc", "#008080", "#004d4d", "#001a1a"],
-          }}
         />
       </Row>
     </CalendarStyle>
