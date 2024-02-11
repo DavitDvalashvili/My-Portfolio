@@ -5,7 +5,6 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <img src="https://skillicons.dev/icons?i=css" />
-        <span>css</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src="https://skillicons.dev/icons?i=html" />
@@ -21,6 +20,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src="https://skillicons.dev/icons?i=ts" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src="https://skillicons.dev/icons?i=nodejs" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src="https://skillicons.dev/icons?i=express" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src="https://skillicons.dev/icons?i=mongodb" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src="https://skillicons.dev/icons?i=sass" />

@@ -17,20 +17,23 @@ function Home2() {
                 LET ME <span className="textColor"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I am passionate about programming. Always open to new challenges
-                and ready to solve the related problems.
+                I am Passionate about coding, love diving into challenges and
+                finding solutions using React, Node.js, and TypeScript
                 <br />
                 <br />
                 You can ask me about
                 <i>
-                  <b className="textColor"> Javascript, React </b>
+                  <b className="textColor"> Javascript, React, Node.js </b>
                 </i>
                 <br />
                 <br />
                 My field of Interests are building &nbsp;
                 <i>
                   <b className="textColor">user-friendly web applications. </b>
-                  with <b className="textColor">TypeScript, React</b>
+                  with{" "}
+                  <b className="textColor">
+                    TypeScript, React, Express.js, MongoDB
+                  </b>
                 </i>
                 <br />
                 <br />
@@ -38,7 +41,7 @@ function Home2() {
                 skills in
                 <b className="textColor"> Back-end development</b> and learn
                 <i>
-                  <b className="textColor"> Next.js, Express.js and MongoDB</b>
+                  <b className="textColor"> Next.js </b>
                 </i>
               </p>
             </Col>

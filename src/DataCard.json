@@ -1,50 +1,50 @@
 [
-    {  
-        "id" : 1,
-        "title": "Audiophile Ecommerce website",
-        "image":  "./Projects/Audiophile-eCommerce-website.png",
-        "stacks": "BUILT WITH: Typescript, Styled-Components, React-Router, React-hook-form, React-Helmet",
-        "githubLink": "https://github.com/DavitDvalashvili/Audiophile-ecommerce-website",
-        "demoLink": "https://audiophile-ecommerce-website-lake.vercel.app/"
-    },
-    {  
-        "id" : 2,
-        "title": "RedBerry knight cup registration",
-        "image":  "./Projects/Knight-Cup-Registration.png",
-        "stacks": "BUILT WITH: Typescript, Styled-Components, React-Router, React-hook-form",
-        "githubLink": "https://github.com/DavitDvalashvili/RedBerry-Knight-Cup-Registration",
-        "demoLink": "https://red-berry-knight-cup-registration-nine.vercel.app/"
-    },
-    {  
-        "id" : 3,
-        "title": "Photosnap multi page website",
-        "image":  "./Projects/Photosnap-multi-page-website.png",
-        "stacks": "BUILT WITH: React - Javascript Library, Typescript, Styled-Components, React-Router",
-        "githubLink": "https://github.com/DavitDvalashvili/Photosnap-multi-page-website",
-        "demoLink": "https://photosnap-multi-page-website-two.vercel.app/"
-    },
-    {  
-        "id" : 4,
-        "title": "Dictionary-web-app",
-        "image":  "./Projects/Dictionary-web-app.png",
-        "stacks": "BUILT WITH: Javascript, React - Javascript Library, Tailwind for styling, Rest-Api",
-        "githubLink": "https://github.com/DavitDvalashvili/Dictionary-web-app",
-        "demoLink": "https://dictionary-web-app-lime.vercel.app/"
-    },
-    {  
-        "id" : 5,
-        "title": "Planets fact site",
-        "image":  "./Projects/Planets-fact-site.png",
-        "stacks": "BUILT WITH: Typescript, React - Javascript Library, Styled-Components",
-        "githubLink": "https://github.com/DavitDvalashvili/Planets-fact-site",
-        "demoLink": "https://planets-fact-site-theta.vercel.app/"
-    },
-    {  
-        "id" : 6,
-        "title": "Todo app",
-        "image":  "./Projects/Todo-app.png",
-        "stacks": "BUILT WITH: Vanilla Javascript, SASS - css pre-processor, html",
-        "githubLink": "https://davitdvalashvili.github.io/Todo-App/",
-        "demoLink": "https://github.com/DavitDvalashvili/Todo-App"
-    }
+  {
+    "id": 1,
+    "title": "Real estate web app",
+    "image": "./Projects/Real-estate-app.png",
+    "stacks": "BUILT WITH: Javascript, React, Express.js, MongoDB, TailwindSCC JWT: JSON Web Token, Firebase",
+    "githubLink": "https://github.com/DavitDvalashvili/real-estate-web-app",
+    "demoLink": "https://real-estate-web-app-j262.onrender.com/"
+  },
+  {
+    "id": 2,
+    "title": "Entertainment web app",
+    "image": "./Projects/Entertainment-app.png",
+    "stacks": "BUILT WITH: Typescript, React, Express.js, Styled-Components, MongoDB, React-hook-form, JWT: JSON Web Token",
+    "githubLink": "https://github.com/DavitDvalashvili/entertainment-web-app-front",
+    "demoLink": "https://entertainment-web-app-front-dun.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Audiophile Ecommerce website",
+    "image": "./Projects/Audiophile-eCommerce-website.png",
+    "stacks": "BUILT WITH: Typescript, Styled-Components, React-Router, React-hook-form, React-Helmet",
+    "githubLink": "https://github.com/DavitDvalashvili/Audiophile-ecommerce-website",
+    "demoLink": "https://audiophile-ecommerce-website-lake.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Photosnap multi page website",
+    "image": "./Projects/Photosnap-multi-page-website.png",
+    "stacks": "BUILT WITH: React - Javascript Library, Typescript, Styled-Components, React-Router",
+    "githubLink": "https://github.com/DavitDvalashvili/Photosnap-multi-page-website",
+    "demoLink": "https://photosnap-multi-page-website-two.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Planets fact site",
+    "image": "./Projects/Planets-fact-site.png",
+    "stacks": "BUILT WITH: Typescript, React - Javascript Library, Styled-Components",
+    "githubLink": "https://github.com/DavitDvalashvili/Planets-fact-site",
+    "demoLink": "https://planets-fact-site-theta.vercel.app/"
+  },
+  {
+    "id": 6,
+    "title": "Dictionary-web-app",
+    "image": "./Projects/Dictionary-web-app.png",
+    "stacks": "BUILT WITH: Javascript, React - Javascript Library, Tailwind for styling, Rest-Api",
+    "githubLink": "https://github.com/DavitDvalashvili/Dictionary-web-app",
+    "demoLink": "https://dictionary-web-app-lime.vercel.app/"
+  }
 ]

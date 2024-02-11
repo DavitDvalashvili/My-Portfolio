@@ -12,13 +12,16 @@ function AboutCard() {
             from <span className="textColor"> Tbilisi, Georgia</span>
             <br />
             {`I am a junior`}
-            <span className="textColor"> {`front-end developer`}</span>
+            <span className="textColor"> {`Full-stack developer`}</span>
             {`            seeking new challenges to cope with. If you're interested in
             collaborating with me, don't hesitate to get in touch.`}
             <br />
             {` Furthermore, I'm presently expanding my skills in full-stack
             development, with a focus on`}
-            <span className="textColor"> Node.js, Express.js, and MongoDB</span>
+            <span className="textColor">
+              {" "}
+              Next.js, Node.js, Express.js, and MongoDB
+            </span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -29,6 +32,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Watching movies & Documentaries
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Listening to podcasts
             </li>
             <li className="about-activity">
               <ImPointRight /> Walking in the nature
