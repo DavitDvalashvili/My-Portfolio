@@ -16,6 +16,9 @@ function Toolstack() {
         <img src="https://skillicons.dev/icons?i=postman" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <img src="https://skillicons.dev/icons?i=firebase" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <img src="https://skillicons.dev/icons?i=vercel" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
