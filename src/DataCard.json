@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Invoice app",
-    "image": "./Project/Invoice.png",
+    "image": "./Projects/Invoice.png",
     "description": "A user-friendly invoice app built with Next.js, Tailwind CSS, and Mongoose, featuring Framer Motion for smooth animations. Users can manage invoices, perform CRUD operations, filter by status, toggle light/dark mode, and maintain state across sessions. Developed using TypeScript for reliability and scalability.",
     "githubLink": "https://github.com/DavitDvalashvili/invoice-app",
     "demoLink": "https://invoice-app-kohl-sigma.vercel.app/"
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "MERN countries with color theme switcher",
     "image": "./Projects/Countries.png",
-    "stacks": "A TypeScript-based web app with Node.js, Express, MUI, and Redux Toolkit. Explore and search countries, filter by region, and view detailed information. Mongoose manages MongoDB object modeling. Navigate to bordering countries and toggle between light and dark modes for optimal viewing.",
+    "description": "A TypeScript-based web app with Node.js, Express, MUI, and Redux Toolkit. Explore and search countries, filter by region, and view detailed information. Mongoose manages MongoDB object modeling. Navigate to bordering countries and toggle between light and dark modes for optimal viewing.",
     "githubLink": "https://github.com/DavitDvalashvili/rest-countries-api-with-color-theme-switcher",
     "demoLink": "https://rest-countries-api-front.vercel.app/"
   },
