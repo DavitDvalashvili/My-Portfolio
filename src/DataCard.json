@@ -13,7 +13,7 @@
     "image": "./Projects/Real-estate-app.png",
     "description": "A real estate app built with Node.js, Express, and Tailwind CSS. Users can securely sign up with email, log in with Google, manage profiles, and handle property listings. Features include property search, sorting, and image management. Uses Mongoose for data modeling, JWT and bcrypt for authentication, and Firebase for backend services.",
     "githubLink": "https://github.com/DavitDvalashvili/real-estate-web-app",
-    "demoLink": "https://real-estate-web-app-j262.onrender.com/"
+    "demoLink": "https://real-estate-web-app-client.vercel.app/"
   },
   {
     "id": 3,
@@ -29,7 +29,7 @@
     "image": "./Projects/Entertainment-app.png",
     "description": "A responsive entertainment app built with Node.js, Express, and Styled Components. Users can browse, bookmark, and search movies and TV shows, navigate between sections, and manage profiles. Full-stack features include JWT and bcrypt authentication. Developed with React Hook Form, Mongoose, and TypeScript for seamless and secure user experience.",
     "githubLink": "https://github.com/DavitDvalashvili/entertainment-web-app-front",
-    "demoLink": "https://entertainment-web-app-front-dun.vercel.app/"
+    "demoLink": "https://entertainment-web-app-front-beige.vercel.app/"
   },
   {
     "id": 5,
