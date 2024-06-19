@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Invoice app",
-    "image": "./Projects/Invoice.png",
+    "image": "./Project/Invoice.png",
     "description": "A user-friendly invoice app built with Next.js, Tailwind CSS, and Mongoose, featuring Framer Motion for smooth animations. Users can manage invoices, perform CRUD operations, filter by status, toggle light/dark mode, and maintain state across sessions. Developed using TypeScript for reliability and scalability.",
     "githubLink": "https://github.com/DavitDvalashvili/invoice-app",
     "demoLink": "https://invoice-app-kohl-sigma.vercel.app/"
@@ -17,26 +17,34 @@
   },
   {
     "id": 3,
+    "title": "MERN countries with color theme switcher",
+    "image": "./Projects/Countries.png",
+    "stacks": "A TypeScript-based web app with Node.js, Express, MUI, and Redux Toolkit. Explore and search countries, filter by region, and view detailed information. Mongoose manages MongoDB object modeling. Navigate to bordering countries and toggle between light and dark modes for optimal viewing.",
+    "githubLink": "https://github.com/DavitDvalashvili/rest-countries-api-with-color-theme-switcher",
+    "demoLink": "https://rest-countries-api-front.vercel.app/"
+  },
+  {
+    "id": 4,
     "title": "Entertainment web app",
     "image": "./Projects/Entertainment-app.png",
-    "stacks": "BUILT WITH: Typescript, React, Express.js, Styled-Components, MongoDB, React-hook-form, JWT: JSON Web Token",
+    "description": "A responsive entertainment app built with Node.js, Express, and Styled Components. Users can browse, bookmark, and search movies and TV shows, navigate between sections, and manage profiles. Full-stack features include JWT and bcrypt authentication. Developed with React Hook Form, Mongoose, and TypeScript for seamless and secure user experience.",
     "githubLink": "https://github.com/DavitDvalashvili/entertainment-web-app-front",
     "demoLink": "https://entertainment-web-app-front-dun.vercel.app/"
   },
   {
-    "id": 4,
-    "title": "Audiophile Ecommerce website",
-    "image": "./Projects/Audiophile-eCommerce-website.png",
-    "stacks": "BUILT WITH: Typescript, Styled-Components, React-Router, React-hook-form, React-Helmet",
-    "githubLink": "https://github.com/DavitDvalashvili/Audiophile-ecommerce-website",
-    "demoLink": "https://audiophile-ecommerce-website-lake.vercel.app/"
+    "id": 5,
+    "title": "MERN Todo app",
+    "image": "./Projects/Todo.png",
+    "description": "A feature-rich todo list app built with Node.js, Express, and MUI. Users can add, edit, mark as complete, and delete todos. Includes filters, sorting, and light/dark mode. Enhanced with Redux Toolkit for state management and Framer Motion for smooth animations. Mongoose manages data, and the app is developed with TypeScript for robust functionality",
+    "githubLink": "https://github.com/DavitDvalashvili/todo-mern-app",
+    "demoLink": "https://todo-mern-app-client.vercel.app/"
   },
   {
-    "id": 5,
-    "title": "Photosnap multi page website",
-    "image": "./Projects/Photosnap-multi-page-website.png",
-    "stacks": "BUILT WITH: React - Javascript Library, Typescript, Styled-Components, React-Router",
-    "githubLink": "https://github.com/DavitDvalashvili/Photosnap-multi-page-website",
-    "demoLink": "https://photosnap-multi-page-website-two.vercel.app/"
+    "id": 6,
+    "title": "Audiophile Ecommerce website",
+    "image": "./Projects/Audiophile-eCommerce-website.png",
+    "description": "An e-commerce app built with TypeScript, React, Styled-components, React Router, and React Helmet. Users can view responsive layouts, interact with hover states, manage their cart, fill in checkout fields with form validations, see accurate order totals, and receive an order confirmation modal with a summary after checkout.",
+    "githubLink": "https://github.com/DavitDvalashvili/Audiophile-ecommerce-website",
+    "demoLink": "https://audiophile-ecommerce-website-lake.vercel.app/"
   }
 ]
