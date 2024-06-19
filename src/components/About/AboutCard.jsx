@@ -18,10 +18,7 @@ function AboutCard() {
             <br />
             {` Furthermore, I'm presently expanding my skills in full-stack
             development, with a focus on`}
-            <span className="textColor">
-              {" "}
-              Next.js, Node.js, Express.js, and MongoDB
-            </span>
+            <span className="textColor"> React, Next.js, Node.js, MongoDB</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -42,7 +39,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            Empower Tech Minds with Bytes of Brilliance: Learn, Share, Grow!
+            In the world of code, every bug is the hidden opportunity of growth.
           </p>
           <footer className="blockquote-footer">
             {"<Davit.Dvalashvili />"}

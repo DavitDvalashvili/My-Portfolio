@@ -1,14 +1,22 @@
 [
   {
     "id": 1,
+    "title": "Invoice app",
+    "image": "./Projects/Invoice.png",
+    "description": "A user-friendly invoice app built with Next.js, Tailwind CSS, and Mongoose, featuring Framer Motion for smooth animations. Users can manage invoices, perform CRUD operations, filter by status, toggle light/dark mode, and maintain state across sessions. Developed using TypeScript for reliability and scalability.",
+    "githubLink": "https://github.com/DavitDvalashvili/invoice-app",
+    "demoLink": "https://invoice-app-kohl-sigma.vercel.app/"
+  },
+  {
+    "id": 2,
     "title": "Real estate web app",
     "image": "./Projects/Real-estate-app.png",
-    "stacks": "BUILT WITH: Javascript, React, Express.js, MongoDB, TailwindSCC JWT: JSON Web Token, Firebase",
+    "description": "A real estate app built with Node.js, Express, and Tailwind CSS. Users can securely sign up with email, log in with Google, manage profiles, and handle property listings. Features include property search, sorting, and image management. Uses Mongoose for data modeling, JWT and bcrypt for authentication, and Firebase for backend services.",
     "githubLink": "https://github.com/DavitDvalashvili/real-estate-web-app",
     "demoLink": "https://real-estate-web-app-j262.onrender.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Entertainment web app",
     "image": "./Projects/Entertainment-app.png",
     "stacks": "BUILT WITH: Typescript, React, Express.js, Styled-Components, MongoDB, React-hook-form, JWT: JSON Web Token",
@@ -16,7 +24,7 @@
     "demoLink": "https://entertainment-web-app-front-dun.vercel.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Audiophile Ecommerce website",
     "image": "./Projects/Audiophile-eCommerce-website.png",
     "stacks": "BUILT WITH: Typescript, Styled-Components, React-Router, React-hook-form, React-Helmet",
@@ -24,27 +32,11 @@
     "demoLink": "https://audiophile-ecommerce-website-lake.vercel.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Photosnap multi page website",
     "image": "./Projects/Photosnap-multi-page-website.png",
     "stacks": "BUILT WITH: React - Javascript Library, Typescript, Styled-Components, React-Router",
     "githubLink": "https://github.com/DavitDvalashvili/Photosnap-multi-page-website",
     "demoLink": "https://photosnap-multi-page-website-two.vercel.app/"
-  },
-  {
-    "id": 5,
-    "title": "Planets fact site",
-    "image": "./Projects/Planets-fact-site.png",
-    "stacks": "BUILT WITH: Typescript, React - Javascript Library, Styled-Components",
-    "githubLink": "https://github.com/DavitDvalashvili/Planets-fact-site",
-    "demoLink": "https://planets-fact-site-theta.vercel.app/"
-  },
-  {
-    "id": 6,
-    "title": "Dictionary-web-app",
-    "image": "./Projects/Dictionary-web-app.png",
-    "stacks": "BUILT WITH: Javascript, React - Javascript Library, Tailwind for styling, Rest-Api",
-    "githubLink": "https://github.com/DavitDvalashvili/Dictionary-web-app",
-    "demoLink": "https://dictionary-web-app-lime.vercel.app/"
   }
 ]

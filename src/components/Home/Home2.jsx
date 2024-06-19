@@ -18,12 +18,16 @@ function Home2() {
               </h1>
               <p className="home-about-body">
                 I am Passionate about coding, love diving into challenges and
-                finding solutions using React, Node.js, and TypeScript
+                finding solutions using React, Node.js, and TypeScript, Next.js,
+                MongoDB, Express.js ...
                 <br />
                 <br />
                 You can ask me about
                 <i>
-                  <b className="textColor"> Javascript, React, Node.js </b>
+                  <b className="textColor">
+                    {" "}
+                    Javascript, React, Node.js, Next.js{" "}
+                  </b>
                 </i>
                 <br />
                 <br />
@@ -32,17 +36,14 @@ function Home2() {
                   <b className="textColor">user-friendly web applications. </b>
                   with{" "}
                   <b className="textColor">
-                    TypeScript, React, Express.js, MongoDB
+                    TypeScript, React, Express.js, MongoDB, Next.js
                   </b>
                 </i>
                 <br />
                 <br />
                 Whenever possible, I also spend my time and energy to enhance my
                 skills in
-                <b className="textColor"> Back-end development</b> and learn
-                <i>
-                  <b className="textColor"> Next.js </b>
-                </i>
+                <b className="textColor"> Back-end development</b>
               </p>
             </Col>
             <Col md={4} className="myAvatar">
